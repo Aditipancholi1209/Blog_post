@@ -74,8 +74,8 @@ place-items: center;
 }
 .search {
 padding: 2px;    
-min-width: 60rem;
-margin-left: 30%; 
+min-width: 50rem;
+margin-left: 500px;
 margin-top: 20px;
 font-size: 2rem;
 text-transform: capitalize;
