@@ -49,6 +49,8 @@ gap: 4rem;
 min-width: 20rem;
 width: 40vw;
 padding: 4rem;
+
+    
 background-color: #ffffff;
 box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 border-radius: 0.5rem;
@@ -72,10 +74,12 @@ color: rgb(149, 30, 196);
 display: grid;
 place-items: center;
 }
+.flex-container{
+    display: flex;
+    justify-content: center; 
+}
 .search {
 padding: 2px;    
-min-width: 50rem;
-margin-left: 500px; 
 margin-top: 20px;
 font-size: 2rem;
 text-transform: capitalize;

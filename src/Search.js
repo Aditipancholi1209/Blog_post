@@ -3,8 +3,10 @@ import { useGlobalContext } from './Context'
 const Search = () => {
 const {searchPost} =useGlobalContext();
   return (
-    <div>
-      <form onSubmit={(e)=>e.preventDefault()}>
+
+    <div className='flex-container'>     
+    <form onSubmit={(e)=>e.preventDefault()}>
+        
         <div>
           <input
           className='search'
@@ -15,8 +17,10 @@ const {searchPost} =useGlobalContext();
         </div>
 
       </form>
-    </div>
-  );
+      
+      </div>
+      
+   );
 };
 
 export default Search;
